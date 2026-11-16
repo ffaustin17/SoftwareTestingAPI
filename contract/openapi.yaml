@@ -8,7 +8,7 @@ info:
     Data is stored in memory and is cleared each time the service restarts.
   version: 1.0.0
 servers:
-- url: http://localhost:8080
+- url: http://localhost:8081
   description: Local development server
 tags:
 - name: Students

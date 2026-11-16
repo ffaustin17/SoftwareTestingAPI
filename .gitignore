@@ -6,3 +6,14 @@ target/
 .classpath
 .project
 newman/
+.lab-tools/
+
+# Local lab working files; only deliverables/ is submitted.
+/lab/
+/findings.csv
+/results-second-run.json
+/student-reg-tests.postman_collection.json
+/results.json
+/lab-report.pdf
+/Fabrice Faustin - ST06 Revised.docx
+/revised_st06.postman_collection.json

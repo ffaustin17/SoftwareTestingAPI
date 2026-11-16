@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Configuration;
 
                         All error responses use the `ErrorResponse` schema unless an operation says otherwise.
                         Data is stored in memory and is cleared each time the service restarts."""),
-        servers = @Server(url = "http://localhost:8080", description = "Local development server"),
+        servers = @Server(url = "http://localhost:8081", description = "Local development server"),
         tags = {
                 @Tag(name = "Students", description = "Create, read, update, and delete students"),
                 @Tag(name = "Courses", description = "Create, read, update, and delete courses"),
